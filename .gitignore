@@ -1,0 +1,40 @@
+# ===============================
+# Rust - engine/
+# ===============================
+engine/target/
+engine/Cargo.lock
+engine/.cargo/
+engine/.idea/
+engine/*.rs.bk
+engine/*.log
+
+# ===============================
+# Node / Nuxt.js - web/
+# ===============================
+web/node_modules/
+web/.nuxt/
+web/dist/
+web/.output/
+web/.cache/
+web/.temp/
+web/package-lock.json
+web/yarn.lock
+
+# ===============================
+# OS / Editor files
+# ===============================
+*.swp
+*.swo
+*.DS_Store
+*.log
+*.bak
+*.tmp
+.idea/
+.vscode/
+*.iml
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.*.local
