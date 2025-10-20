@@ -1,27 +1,28 @@
 {
   "name": "web",
-  "type": "module",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
   },
   "dependencies": {
-    "@nuxt/content": "^3.7.1",
-    "@nuxt/eslint": "^1.9.0",
-    "@nuxt/image": "^1.11.0",
-    "@nuxt/scripts": "^0.13.0",
-    "@nuxt/test-utils": "^3.19.2",
-    "@nuxt/ui": "^4.0.1",
-    "@unhead/vue": "^2.0.19",
-    "better-sqlite3": "^12.4.1",
-    "eslint": "^9.38.0",
-    "nuxt": "^4.1.3",
-    "typescript": "^5.9.3",
-    "vue": "^3.5.22",
-    "vue-router": "^4.5.1"
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.546.0",
+    "next": "15.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

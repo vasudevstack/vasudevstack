@@ -12,7 +12,7 @@ engine/*.log
 # Node / Nuxt.js - web/
 # ===============================
 web/node_modules/
-web/.nuxt/
+web/.next/
 web/dist/
 web/.output/
 web/.cache/
